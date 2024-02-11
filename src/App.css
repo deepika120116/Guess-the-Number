@@ -1,0 +1,42 @@
+
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(100,99,99);
+padding:15%;
+
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border:1px solid whitesmoke;
+  padding:10px;
+  width:500px;
+  border-radius: 16px;
+  color:white
+}
+input{
+  padding:10px;
+  margin-top:10px;
+  border-radius: 10px;
+}
+input:hover{
+  background-color: #61dafbaa;
+}
+input:focus{
+  background-color: beige;
+}
+
+.loginContainer{
+  height:50vh;
+  /* overflow: hidden; */
+}
+
+input{
+  padding:10px;
+  margin-left:10px;
+}
